@@ -31,7 +31,7 @@
 
 <body class="index-page">
 
-  <?php include 'header.php'?>
+  <?php include 'header.php' ?>
 
   <main class="main">
 
