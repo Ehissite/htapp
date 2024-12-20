@@ -568,17 +568,17 @@ if (isset($_POST['signout'])) {
             $consent = trim(stripslashes(htmlspecialchars($_POST['consent'])));
             $newsletter = trim(stripslashes(htmlspecialchars($_POST['newsletter'])));
 
-            if (is_numeric($ucontact)) {
+            // if (is_numeric($ucontact)) {
               
-            }else{
-              echo "
-                  <script>
-                      alert('Phone Number must be Numeric');
-                      window.location.href = 'onboarding';
-                  </script>
-                  ";
-                  die();
-            }
+            // }else{
+            //   echo "
+            //       <script>
+            //           alert('Phone Number must be Numeric');
+            //           window.location.href = 'onboarding';
+            //       </script>
+            //       ";
+            //       die();
+            // }
             if (is_numeric($makeyear)) {
               
             }else{
@@ -844,7 +844,7 @@ if (isset($_POST['signout'])) {
             }
           
 
-                $bv = $conn->query("insert into userdata (userid,fullname,dob,contact,email,street,state,postcode,cartype,makeyear,ownershipstatus,batteryrange,chargingstationtype,homechargingaccess,specify,officechargingaccess,oftencharge,charginglocation,hometype,homeownership,electricityprovider,subscriber,avgdistance,vehicleuse,challenges,greentech,subscription,communicationmethod,consent,newsletter) values ('$user_id','$fullname','$dob','$ucontact','$email','$street','$state','$postcode','$cartype','$makeyear','$ownershipstatus','$batteryrange','$chargingstationtype','$homechargingaccess','$specify','$officechargingaccess','$oftencharge','$charginglocation','$hometype','$homeownership','$electricityprovider','$subscriber','$avgdistance','$vehicleuse','$challenges','$greentech','$subscription','$communicationmethod','$consent','$newsletter')"); 
+                $bv = $conn->query("insert into userdata (userid,fullname,dob,contact,email,street,state,postcode,cartype,makeyear,ownershipstatus,batteryrange,chargingstationtype,homechargingaccess,specify,officechargingaccess,oftencharge,charginglocation,hometype,homeownership,electricityprovider,subscriber,avgdistance,vehicleuse,challenges,greentech,subscription,communicationmethod,consent,newsletter,count) values ('$user_id','$fullname','$dob','$ucontact','$email','$street','$state','$postcode','$cartype','$makeyear','$ownershipstatus','$batteryrange','$chargingstationtype','$homechargingaccess','$specify','$officechargingaccess','$oftencharge','$charginglocation','$hometype','$homeownership','$electricityprovider','$subscriber','$avgdistance','$vehicleuse','$challenges','$greentech','$subscription','$communicationmethod','$consent','$newsletter','1')"); 
 
                 if($bv){
 

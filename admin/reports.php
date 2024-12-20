@@ -264,14 +264,14 @@ if (isset($_POST['signout'])) {
                                     ?>
                                             <tr class="">
                                                 <td class="width35 hidden-xs">
-                                                    <a href="javascript:void(0);" class="mail-star"><i class="fa fa-star"></i></a>
+                                                    <a href="report-details?userid=<?=$userdataid ?>" class="mail-star"><i class="fa fa-star"></i></a>
                                                 </td>
                                                 <td>
                                                     <div><a href="report-details?userid=<?=$userdataid ?>"><?=$fullname?></a></div>
-                                                    <div class="text-muted"><a href="tel:<?=$phone?>"><?=$phone?></a></div>
+                                                    <div class="text-muted"><a href="report-details?userid=<?=$userdataid ?>"><?=$phone?></a></div>
                                                 </td>
                                                 <td class="hidden-xs">
-                                                    <div class="text-muted"><a href="mailto:<?=$uemail?>"><?=$uemail?></a></div>
+                                                    <div class="text-muted"><a href="report-details?userid=<?=$userdataid ?>"><?=$uemail?></a></div>
                                                 </td>
                                                 <td class="hidden-sm">
                                                     <div class="text-muted"><?=$street?></div>                                                
