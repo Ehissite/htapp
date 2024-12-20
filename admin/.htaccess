@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^account account.php [NC,L]
+RewriteRule ^onboarding onboarding.php [NC,L]
+RewriteRule ^app-chat app-chat.php [NC,L]
+RewriteRule ^inquiry inquiry.php [NC,L]
+RewriteRule ^info info.php [NC,L]
+RewriteRule ^change-password change-password.php [NC,L]
+RewriteRule ^logout logout.php [NC,L]
+RewriteRule ^reports reports.php [NC,L]
+RewriteRule ^report-details report-details.php [NC,L]
