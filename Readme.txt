@@ -1,15 +1,15 @@
-<h1>At Hues & Tartans, we’re not just building products — we’re shaping the future.</h1>
-<h3>Our R&D team is constantly innovating to develop next-generation solutions, including:</h3>
-<ul>
-<li>Innovative EV Charging Solutions</li>
-<li>Residential Charging Solutions</li>
-<li>Commercial & Public Charging Solutions</li>
-</ul>
+At Hues & Tartans, we’re not just building products — we’re shaping the future.
+Our R&D team is constantly innovating to develop next-generation solutions, including:
 
-<p>This project is developed by Razak Ehis Mamud a software developer and tutor at CloudEdge Technologies. </p>
-<p>The project is written in HTML, CSS, Javascript, PHP and MySQL</p>
+Innovative EV Charging Solutions
+Residential Charging Solutions
+Commercial & Public Charging Solutions
 
-<h4>Find out more about the company:</h4>
+
+This project is developed by Razak Ehis Mamud a software developer and tutor at CloudEdge Technologies. 
+The project is written in HTML, CSS, Javascript, PHP and MySQL
+
+Find out more about the company:
 https://huesandtartans.com/home
 https://huesandtartans.com/about
 https://huesandtartans.com/services
