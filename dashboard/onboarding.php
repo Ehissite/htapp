@@ -568,17 +568,87 @@ if (isset($_POST['signout'])) {
             $consent = trim(stripslashes(htmlspecialchars($_POST['consent'])));
             $newsletter = trim(stripslashes(htmlspecialchars($_POST['newsletter'])));
 
-            // if (is_numeric($ucontact)) {
-              
-            // }else{
-            //   echo "
-            //       <script>
-            //           alert('Phone Number must be Numeric');
-            //           window.location.href = 'onboarding';
-            //       </script>
-            //       ";
-            //       die();
-            // }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $fullname))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $street))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $state))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $postcode))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $cartype))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $makeyear))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $electricityprovider))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+            if (!preg_match('/^[A-Za-z0-9 ]+$/', $challenges))
+            {
+              echo "
+              <script>
+                  alert('Only Alphanumeric Characters is allowed');
+                  window.location.href = 'onboarding';
+              </script>
+              ";
+              die();
+            }
+
             if (is_numeric($makeyear)) {
               
             }else{

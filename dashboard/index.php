@@ -176,7 +176,7 @@ if (isset($_POST['signout'])) {
                     <div class="col-lg-12">
                         <div class="mb-4">
                             <h4>Welcome <?=$firstname?>!</h4>
-                            <small><?=$appname?> partners. <a href="../invest">Learn More</a></small>
+                            <small><?=$appname?> partners. We’re building a vibrant ecosystem for the brightest minds in the green tech industry. <a href="../invest">Learn More</a></small><br>
                         </div>                        
                     </div>
                 </div>

@@ -71,14 +71,76 @@ if (isset($_POST['authUser']))
     $exchange = $geo["geoplugin_currencyConverter"];
     $symbol = $geo["geoplugin_currencySymbol"];
 
-    // gender
-    // password
-    // passcode
-    // address
-    // date
-    // contact
-    // country
-    // state
+  
+    
+    if (!preg_match('/^[A-Za-z0-9 ]+$/', $firstname))
+    {
+      echo "
+      <script>
+          alert('Only Alphanumeric Characters is allowed');
+          window.location.href = 'authentication';
+      </script>
+      ";
+      die();
+    }
+
+    if (!preg_match('/^[A-Za-z0-9 ]+$/', $lastname))
+    {
+      echo "
+      <script>
+          alert('Only Alphanumeric Characters is allowed');
+          window.location.href = 'authentication';
+      </script>
+      ";
+      die();
+    }
+
+    if (empty($firstname)) {
+      echo "
+          <script>
+              alert('Empty Field');
+              window.location.href = 'authentication';
+          </script>
+          ";
+          die();
+    }
+
+    if (empty($lastname)) {
+      echo "
+          <script>
+              alert('Empty Field');
+              window.location.href = 'authentication';
+          </script>
+          ";
+          die();
+    }
+    if (empty($email)) {
+      echo "
+          <script>
+              alert('Empty Field');
+              window.location.href = 'authentication';
+          </script>
+          ";
+          die();
+    }
+    if (empty($password)) {
+      echo "
+          <script>
+              alert('Empty Field');
+              window.location.href = 'authentication';
+          </script>
+          ";
+          die();
+    }
+    if (empty($confirmpassword)) {
+      echo "
+          <script>
+              alert('Empty Field');
+              window.location.href = 'authentication';
+          </script>
+          ";
+          die();
+    }
 
     if ($password == $confirmpassword){
 
