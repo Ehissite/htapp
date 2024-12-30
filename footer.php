@@ -31,7 +31,17 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Account</h4>
+          <h4>Company</h4>
+          <ul>
+          <li><a href="green-nest">Green NeST</a></li>
+            <li><a href="green-web">Green Web</a></li>
+            <li><a href="greenovators">Greenovators</a></li>
+            <li><a href="authentication">Join Elypx Club</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-links">
+          <h4>Elypx Club</h4>
           <ul>
             <li><a href="dashboard/account">Account</a></li>
             <li><a href="dashboard/">Dashboard</a></li>
@@ -39,17 +49,6 @@
             <li><a href="authentication">Create a free account</a></li>
           </ul>
         </div>
-
-        <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
-        </div> -->
 
       </div>
     </div>
