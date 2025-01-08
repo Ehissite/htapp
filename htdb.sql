@@ -85,6 +85,7 @@ CREATE TABLE `user` (
   `data` tinyint(1) NOT NULL,
   `type` varchar(5) NOT NULL,
   `count` int(11) NOT NULL
+  `agree` varchar(25) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --

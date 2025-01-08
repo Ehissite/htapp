@@ -401,7 +401,7 @@ if (isset($_POST['authUser']))
 							<input class="form-control main" type="password" name="password" placeholder="Password" required>
 							<input class="form-control main" type="password" name="confirmpassword" placeholder="Confirm Password" required>
 							<!-- Submit Button -->
-              <p><input type="checkbox" name="terms" required> By clicking “Sign Up” I agree to <a href="agreement">Terms of Agreement.</a></p>
+              <p><input type="checkbox" name="terms"> By clicking “Sign Up” I agree to <a href="agreement">Terms of Agreement.</a></p>
                <br><br>
 							<button type="submit" name="authUser" class="btn btn-success">sign up</button>
 						</form>
