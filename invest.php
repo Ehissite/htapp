@@ -73,8 +73,8 @@
             <li>Rapidly Growing Market: The global need for EV infrastructure is expected to grow exponentially in the next few years.</li>
             <li>Sustainable Impact: Align your investment with the future of renewable energy.</li>
         </ul>
-        <p>Get in touch with our team <a href="tel:+44(0) 743 7565 411">+44(0) 743 7565 411</a> or <a href="mailto:info@huesandtartans.com">info@huesandtartans.com</a> to discuss investment opportunities.
-        </p>
+        <p>Get in touch with our team <a href="tel:+44(0) 743 7565 411">+44(0) 743 7565 411</a> or <a href="mailto:info@huesandtartans.com">info@huesandtartans.com</a> to discuss investment opportunities. Read our investors agreement <a target="__blank" href="agreement">here</a>  
+      </p>
         <br><br><br><br>
 
         <h3>Partnerships and Collaborations</h3>

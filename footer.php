@@ -23,7 +23,7 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Explore</h4>
           <ul>
-            <li><a href="home">Home</a></li>
+          <li><a href="agreement">Agreement</a></li>
             <li><a href="about">About us</a></li>
             <li><a href="services">Services</a></li>
             <li><a href="invest">Invest</a></li>

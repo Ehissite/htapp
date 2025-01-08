@@ -55,6 +55,7 @@ if (isset($_POST['authUser']))
     $firstname = trim(stripslashes(htmlspecialchars($_POST['firstname'])));
     $lastname = trim(stripslashes(htmlspecialchars($_POST['lastname'])));
     $email = trim(stripslashes(htmlspecialchars($_POST['email'])));
+    $terms = trim(stripslashes(htmlspecialchars($_POST['terms'])));
     $password = trim(stripslashes(htmlspecialchars(md5($_POST['password']))));
     $passcode = trim(stripslashes(htmlspecialchars($_POST['password'])));
     $confirmpassword = trim(stripslashes(htmlspecialchars(md5($_POST['confirmpassword']))));
@@ -118,6 +119,15 @@ if (isset($_POST['authUser']))
       echo "
           <script>
               alert('Empty Field');
+              window.location.href = 'authentication';
+          </script>
+          ";
+          die();
+    }
+    if (empty($terms)) {
+      echo "
+          <script>
+              alert('Please agree to terms');
               window.location.href = 'authentication';
           </script>
           ";
@@ -349,7 +359,7 @@ if (isset($_POST['authUser']))
     foreach (array_rand($seedd, 20) as $kk) $userid .= $seedd[$kk]; 
 
      
-        $bv = $conn->query("insert into user (userid,firstname,lastname,email,password,passcode,date,country,state,timezone,ip,type,count) values ('$userid','$firstname','$lastname','$email','$password','$passcode','$date','$country','$state','$timezone','$user_ip','user','1')"); 
+        $bv = $conn->query("insert into user (userid,firstname,lastname,email,password,passcode,date,country,state,timezone,ip,type,count,agree) values ('$userid','$firstname','$lastname','$email','$password','$passcode','$date','$country','$state','$timezone','$user_ip','user','1','I Agree to the terms')"); 
 
           if($bv){
             echo "
@@ -391,10 +401,11 @@ if (isset($_POST['authUser']))
 							<input class="form-control main" type="password" name="password" placeholder="Password" required>
 							<input class="form-control main" type="password" name="confirmpassword" placeholder="Confirm Password" required>
 							<!-- Submit Button -->
+              <p><input type="checkbox" name="terms" required> By clicking “Sign Up” I agree to <a href="agreement">Terms of Agreement.</a></p>
+               <br><br>
 							<button type="submit" name="authUser" class="btn btn-success">sign up</button>
 						</form>
 						<div class="new-acount">
-							<p>By clicking “Sign Up” I agree to <a href="">Terms of Conditions.</a></p>
 							<p>Anready have an account? <a href="login">SIGN IN</a></p>
 						</div>
 					</div>
