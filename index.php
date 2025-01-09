@@ -113,6 +113,8 @@
 
     </section><!-- /Clients Section -->
 
+    
+
     <!-- About Section -->
     <section id="about" class="about section section-bg dark-background">
 
@@ -676,6 +678,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+   
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
