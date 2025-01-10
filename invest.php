@@ -57,7 +57,7 @@
     </section><!-- /Hero Section -->
 
     <div class="container" style="margin-top:50px;text-align:center;">
-  <h1 id="headline" style="color:dodgerblue;">COUNTDOWN TO FUNDRAISER</h1>
+  <h1 id="headline" style="color:dodgerblue;">COUNTDOWN TO CROWD FUNDING</h1>
   <div id="countdown" style="color:red;font-size:30px;">
     <div><span id="days"></span>days
       <span id="hours"></span>Hours

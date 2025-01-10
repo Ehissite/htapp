@@ -9,6 +9,7 @@
                 <li><a href="account"><i class="fa fa-user"></i><span>Account</span></a></li>
                 <!-- <li><a href="app-chat"><i class="fa fa-comments"></i><span>Chat</span></a></li> -->
                 <li><a href="change-password"><i class="fa fa-gear"></i><span>Change Password</span></a></li>
+                <li><a href="invest"><i class="fa fa-gear"></i><span>Invest</span></a></li>
                 <li><a href="signout"><i class="fa fa-gear"></i><span>Signout</span></a></li>
             </ul>
         </nav>        
