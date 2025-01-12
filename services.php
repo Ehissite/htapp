@@ -55,17 +55,18 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-briefcase icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Join the Electric Revolution</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Join the Electric Revolution</a></h4>
                 <p class="description">We are committed to making electric vehicle charging as convenient and efficient as possible. As the world continues to embrace electric mobility, Hues & Tartans is dedicated to providing cutting-edge solutions that meet the needs of EV drivers everywhere.                </p>
               </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          <!-- End Service Item -->
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-card-checklist icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Sustainability at the Core</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Sustainability at the Core</a></h4>
                 <p class="description">We believe that green energy is the foundation of a sustainable future. Our EV charging solutions are built with renewable energy sources, reducing carbon emissions and promoting the global shift toward eco-friendly transportation.</p>
               </div>
             </div>
@@ -75,7 +76,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-bar-chart icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Customer-First Approach</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Customer-First Approach</a></h4>
                 <p class="description">At Hues & Tartans, we prioritize the needs of our customers. Our dedicated support team ensures that from installation to daily use, our solutions work seamlessly. We offer comprehensive after-sales service and technical support to keep you powered up and on the move. </p>
               </div>
             </div>
@@ -85,7 +86,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-binoculars icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Advanced EV Charging Solutions</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Advanced EV Charging Solutions</a></h4>
                 <p class="description">Our electric vehicle charging solutions are designed to meet the diverse needs of EV owners, businesses, and public infrastructure. Whether you're seeking a home charging station, a commercial setup, or a mobile charging solution, we have the technology, expertise, and vision to bring it to life.</p>
               </div>
             </div>

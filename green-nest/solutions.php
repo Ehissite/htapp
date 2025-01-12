@@ -55,7 +55,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-briefcase icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Energy Efficiency</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Energy Efficiency</a></h4>
                 <p class="description">Solar panels, energy storage, and smart systems to reduce costs and reliance on non-renewable energy.</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-card-checklist icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Eco-Friendly Materials</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Eco-Friendly Materials</a></h4>
                 <p class="description">From insulation to exterior finishes, every detail is chosen for sustainability and durability.
                 </p>
               </div>
@@ -76,7 +76,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-bar-chart icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Customer-First Approach</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Customer-First Approach</a></h4>
                 <p class="description">At Hues & Tartans, we prioritize the needs of our customers. Our dedicated support team ensures that our solutions work seamlessly. </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-binoculars icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Smart Home Integration</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Smart Home Integration</a></h4>
                 <p class="description">Control energy, security, and comfort with a touch or voice command.
                 </p>
               </div>

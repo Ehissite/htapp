@@ -3,8 +3,8 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="../home" class="logo d-flex align-items-center">
-            <img src="../images/icons/logo.png">
+          <a href="home" class="logo d-flex align-items-center">
+            <img src="images/icons/logo.png">
           </a>
           <div class="footer-contact pt-3">
             <p>Fleet Road, Dartford, Kent, </p>
@@ -23,9 +23,8 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Explore</h4>
           <ul>
-            <li><a href="../home">Home</a></li>
-            <li><a href="../about">About us</a></li>
-            <li><a href="../services">Services</a></li>
+            <li><a href="about">About us</a></li>
+            <li><a href="solutions">Solutions</a></li>
             <li><a href="../invest">Invest</a></li>
           </ul>
         </div>
@@ -33,9 +32,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Company</h4>
           <ul>
-          <li><a href="../green-nest">Green NeST</a></li>
-            <li><a href="../green-web">Green Web</a></li>
-            <li><a href="../greenovators">Greenovators</a></li>
+          <!-- <li><a href="green-nest">Green NeST</a></li>
+            <li><a href="green-web">Green Web</a></li>
+            <li><a href="greenovators">Greenovators</a></li> -->
+            <li><a href="../agreement">Agreement</a></li>
+            <li><a href="../#contact">Contact</a></li>
             <li><a href="../authentication">Join Elypx Club</a></li>
           </ul>
         </div>
@@ -44,7 +45,7 @@
           <h4>Elypx Club</h4>
           <ul>
             <li><a href="../dashboard/account">Account</a></li>
-            <li><a href="../dashboard/">Dashboard</a></li>
+            <!-- <li><a href="dashboard/">Dashboard</a></li> -->
             <li><a href="../login">Login</a></li>
             <li><a href="../authentication">Create a free account</a></li>
           </ul>
