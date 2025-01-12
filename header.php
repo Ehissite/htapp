@@ -11,7 +11,7 @@
         <ul>
           <li><a href="home" class="active">Home<br></a></li>
           <li><a href="about">About</a></li>
-          <li><a href="company">Company</a></li>
+          <!-- <li><a href="company">Company</a></li> -->
           <li><a href="services">Services</a></li>
           <li><a href="invest">Invest</a></li>
           <li><a href="./#contact">Contact</a></li>

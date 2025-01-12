@@ -23,7 +23,6 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Explore</h4>
           <ul>
-          <li><a href="agreement">Agreement</a></li>
             <li><a href="about">About us</a></li>
             <li><a href="services">Services</a></li>
             <li><a href="invest">Invest</a></li>
@@ -33,9 +32,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Company</h4>
           <ul>
-          <li><a href="green-nest">Green NeST</a></li>
+          <!-- <li><a href="green-nest">Green NeST</a></li>
             <li><a href="green-web">Green Web</a></li>
-            <li><a href="greenovators">Greenovators</a></li>
+            <li><a href="greenovators">Greenovators</a></li> -->
+            <li><a href="agreement">Agreement</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="authentication">Join Elypx Club</a></li>
           </ul>
         </div>
@@ -44,7 +45,7 @@
           <h4>Elypx Club</h4>
           <ul>
             <li><a href="dashboard/account">Account</a></li>
-            <li><a href="dashboard/">Dashboard</a></li>
+            <!-- <li><a href="dashboard/">Dashboard</a></li> -->
             <li><a href="login">Login</a></li>
             <li><a href="authentication">Create a free account</a></li>
           </ul>
