@@ -703,7 +703,7 @@ At Hues & Tartans, we’re not just building products — we’re shaping the fu
       mm = String(today.getMonth() + 1).padStart(2, "0"),
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
-      dayMonth = "02/04/",
+       dayMonth = "03/30/",  // dayMonth = Month value/ day value
       birthday = dayMonth + yyyy;
   
   today = mm + "/" + dd + "/" + yyyy;

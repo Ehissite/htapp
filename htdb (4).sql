@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2024 at 02:07 PM
+-- Generation Time: Mar 06, 2025 at 03:26 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -53,7 +53,7 @@ CREATE TABLE `inquiry` (
   `email` varchar(100) NOT NULL,
   `subject` varchar(225) NOT NULL,
   `message` text NOT NULL,
-  `date` date NOT NULL DEFAULT current_timestamp()
+  `date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -84,17 +84,20 @@ CREATE TABLE `user` (
   `online` tinyint(1) NOT NULL,
   `data` tinyint(1) NOT NULL,
   `type` varchar(5) NOT NULL,
-  `count` int(11) NOT NULL
-  `agree` varchar(25) NOT NULL,
+  `count` int(11) NOT NULL,
+  `agree` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `userid`, `firstname`, `lastname`, `email`, `gender`, `password`, `passcode`, `address`, `date`, `contact`, `country`, `state`, `ip`, `balance`, `timezone`, `profile_pic`, `dob`, `online`, `data`, `type`, `count`) VALUES
-(1, 'dLTklWyC9RY4A5unXbiK', 'Muhammed', 'Ali', 'administrator@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2024-12-20', '', '', '', '::1', 0, '', '', '', 0, 1, 'admin', 1),
-(2, 'YzRCPH9wNqrTp6eafo4U', 'Abdul Razak', 'Mamud', 'ehismamud@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2024-12-20', '', 'United Kingdom', '', '::1', 0, 'Europe/London', '', '', 0, 1, 'user', 1);
+INSERT INTO `user` (`id`, `userid`, `firstname`, `lastname`, `email`, `gender`, `password`, `passcode`, `address`, `date`, `contact`, `country`, `state`, `ip`, `balance`, `timezone`, `profile_pic`, `dob`, `online`, `data`, `type`, `count`, `agree`) VALUES
+(1, 'dLTklWyC9RY4A5unXbiK', 'Muhammed', 'Ali', 'administrator@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2024-12-20', '', '', '', '::1', 0, '', '', '', 0, 1, 'admin', 1, ''),
+(2, 'YzRCPH9wNqrTp6eafo4U', 'Abdul Razak', 'Mamud', 'ehis@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2024-12-20', '', 'United Kingdom', '', '::1', 0, 'Europe/London', '', '', 0, 1, 'user', 1, ''),
+(3, 'Z4EMC70ufR8Yd6mrH5pU', 'Abdul Razak', 'Mamud', 'ehismahmud@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2024-12-27', '', 'United Kingdom', '', '::1', 0, 'Europe/London', '', '', 0, 0, 'user', 1, ''),
+(8, 'l6qkZ91KyIeJvYMuWthT', 'Abdul Razak', 'Mamud', 'ehismamud@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2024-12-27', '', 'United Kingdom', '', '::1', 0, 'Europe/London', '', '', 0, 0, 'user', 1, ''),
+(9, 'P1AWYz4Spk0V7d9LgBCN', 'Abdul Razak', 'Mamud', 'ehismu@gmail.com', 0, '21232f297a57a5a743894a0e4a801fc3', 'admin', '', '2025-01-08', '', 'United Kingdom', '', '::1', 0, 'Europe/London', '', '', 0, 0, 'user', 1, 'I Agree to the terms');
 
 -- --------------------------------------------------------
 
@@ -143,7 +146,7 @@ CREATE TABLE `userdata` (
 
 INSERT INTO `userdata` (`id`, `userid`, `fullname`, `dob`, `contact`, `email`, `street`, `state`, `postcode`, `cartype`, `makeyear`, `ownershipstatus`, `batteryrange`, `chargingstationtype`, `homechargingaccess`, `specify`, `officechargingaccess`, `oftencharge`, `charginglocation`, `hometype`, `homeownership`, `electricityprovider`, `subscriber`, `avgdistance`, `vehicleuse`, `challenges`, `greentech`, `subscription`, `communicationmethod`, `consent`, `newsletter`, `count`) VALUES
 (1, 'dLTklWyC9RY4A5unXbiK', 'Muhammed Ali', '2024-12-20', '+44(0) 743 7565 411', 'administrator@gmail.com', 'Fleet Road, Dartford, Kent, United Kingdom', 'United Kingdom', 456786, 'Tesla', '2024', 'Owned', 120, 'Home Charging', 'Yes', 'Standard Outlet', 'Yes', 'Weekly', 'Work', 'Detached House', 'Owned', 'Manchester City', 'Yes', 120, 'Personal', 'None', 'Yes', 'monthly Plan', 'Email', 'i agree', 'Yes', 1),
-(2, 'YzRCPH9wNqrTp6eafo4U', 'Abdul Razak Ehis Mamud', '2024-12-20', '+449031183604', 'ehismamud@gmail.com', 'Fleet Road, Dartford, Kent, United Kingdom', 'United Kingdom', 456786, 'Tesla', '2024', 'Owned', 120, 'Home Charging', 'Yes', 'Wallbox', 'Yes', 'Weekly', 'Fastcharginghubs', 'Apartment', 'Rented', 'Manchester City', 'Yes', 120, 'Personal', 'None', 'Yes', 'monthly Plan', 'Email', 'i agree', 'Yes', 1);
+(2, 'YzRCPH9wNqrTp6eafo4U', 'Abdul Razak Ehis Mamud', '2024-12-20', '+449031183604', 'ehis@gmail.com', 'Fleet Road, Dartford, Kent, United Kingdom', 'United Kingdom', 456786, 'Tesla', '2024', 'Owned', 120, 'Home Charging', 'Yes', 'Wallbox', 'Yes', 'Weekly', 'Fastcharginghubs', 'Apartment', 'Rented', 'Manchester City', 'Yes', 120, 'Personal', 'None', 'Yes', 'monthly Plan', 'Email', 'i agree', 'Yes', 1);
 
 --
 -- Indexes for dumped tables
@@ -193,7 +196,7 @@ ALTER TABLE `inquiry`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `userdata`
